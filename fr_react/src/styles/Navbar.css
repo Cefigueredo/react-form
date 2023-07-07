@@ -1,0 +1,10 @@
+.Navbar {
+  background-color: rgb(69, 79, 89);
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  border-style: dashed;
+  border-color: rgb(69, 79, 89);
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

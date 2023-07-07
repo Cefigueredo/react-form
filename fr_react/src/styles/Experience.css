@@ -1,0 +1,44 @@
+.experience {
+  padding: 10px;
+  border-color: #b5b5b5;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-bottom: 10px;
+}
+
+.addBulletBtn {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteBtn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deleteBtn > button {
+  border: none;
+}
+
+.addExperienceBtn {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-bullets {
+  padding: 10px;
+  border-color: #b5b5b5;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.ul-bullets {
+  list-style-image: url("../assets/grip-vertical.svg");
+}

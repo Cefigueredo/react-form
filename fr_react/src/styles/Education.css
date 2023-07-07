@@ -1,0 +1,16 @@
+.education {
+  margin: 3px;
+  padding: 10px;
+  border-color: #b5b5b5;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.addThesisProjectBtn,
+.addEducationBtn {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

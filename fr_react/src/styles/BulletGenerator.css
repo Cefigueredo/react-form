@@ -1,0 +1,154 @@
+.bullet-gen-title {
+  text-align: center;
+  background-color: rgb(69, 79, 89);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-description {
+  margin-bottom: 0px;
+}
+
+.input-field {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.div-bullet-generator {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btnObtain {
+  display: flex;
+  justify-content: center;
+}
+.spinner,
+.spinner > * {
+  display: flex;
+  justify-content: center;
+}
+.btnObtain > button {
+  background-color: rgb(67, 166, 180);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3 {
+  color: rgb(69, 79, 89);
+  text-align: center;
+}
+.dropdown-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.autocomplete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-field-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-field-control-inside {
+  width: 100%;
+}
+.autocomplete-multiple-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.multi-select {
+  width: 86%;
+  margin-right: 7px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: white;
+}
+
+.autocomplete > * {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.textfield > * {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+.inside-text {
+  display: flex;
+  position: relative;
+  align-items: right;
+  justify-content: right;
+  top: -13px;
+  left: -5px;
+  color: gray;
+  font-size: 9px;
+  user-select: none;
+  pointer-events: none;
+  margin: 0px;
+}
+
+.multiple-selector {
+  background-color: white;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+}
+.copy > Button {
+  width: 34px;
+  height: 34px;
+  padding: 0px;
+  border: none;
+}
+.correct-grammar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.example-text {
+  border: none;
+  color: gray;
+  font-style: italic;
+}
+.link-here {
+  color: rgb(67, 166, 180);
+}
+.link-here:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1600px) {
+  .div-bullet-generator {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .div-bullet-generator {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .div-bullet-generator {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

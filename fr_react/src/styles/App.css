@@ -1,0 +1,52 @@
+.titleText {
+  margin-top: 10px;
+  text-align: center;
+}
+.successBtn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnApp {
+  margin: 5px;
+}
+.top-btns > button {
+  background-color: rgb(67, 166, 180);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top-btns > button:hover {
+  background-color: gray;
+}
+
+.container {
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+
+.addEducationBtn > button,
+.addBulletBtn > button,
+.addExperienceBtn > button,
+.addCertificationBtn > button,
+.addCourseBtn > button,
+.addThesisProjectBtn > button,
+.addPersonalBtn > button,
+.addPublicationBtn > button {
+  background-color: rgb(67, 166, 180);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.addEducationBtn > button:hover,
+.addBulletBtn > button:hover,
+.addExperienceBtn > button:hover,
+.addCertificationBtn > button:hover,
+.addCourseBtn > button:hover,
+.addThesisProjectBtn > button:hover,
+.addPersonalBtn > button:hover,
+.addPublicationBtn > button:hover {
+  background-color: gray;
+}
